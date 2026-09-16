@@ -18,7 +18,6 @@
 
 ---
 
-![CareerLens AI Dashboard](https://raw.githubusercontent.com/yourusername/careerlens-ai/main/docs/dashboard-preview.png)
 
 </div>
 
