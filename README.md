@@ -254,8 +254,8 @@ match_score = (matched_required × 0.7 + matched_nice × 0.3) / max_possible × 
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/careerlens-ai.git
-cd careerlens-ai
+git clone https://github.com/riyasahu7/CareerLens-AI-Intelligent-Resume-Analyzer-Job-Recommendation-System.git
+cd CareerLens-AI-Intelligent-Resume-Analyzer-Job-Recommendation-System
 ```
 
 ### 2. Backend setup
