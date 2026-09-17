@@ -2,18 +2,17 @@ services:
   - type: web
     name: careerlens-api
     env: python
+    rootDir: backend
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn "app:create_app()" --bind 0.0.0.0:$PORT --workers 2 --timeout 120
+    startCommand: gunicorn "app:create_app()" --bind 0.0.0.0:$PORT --workers 2
     envVars:
       - key: FLASK_ENV
         value: production
       - key: SECRET_KEY
-        generateValue: true
+        value: CareerLensAI_SuperSecret_2024!xK9mP
       - key: JWT_SECRET_KEY
-        generateValue: true
+        value: CareerLensJWT_SecretKey_2024!zR7nQ
       - key: MONGO_URI
         sync: false
       - key: CORS_ORIGINS
-        sync: false
-      - key: OPENAI_API_KEY
-        sync: false
+        value: https://career-lens-ai-intelligent-resume-a.vercel.app
