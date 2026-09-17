@@ -14,6 +14,12 @@
 [![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
 
+### 🌐 Live Demo
+| Service | URL |
+|---|---|
+| 🖥️ **Frontend (Vercel)** | https://career-lens-ai-intelligent-resume-a.vercel.app |
+| ⚙️ **Backend API (Render)** | https://careeerlens-api-y7zz.onrender.com/api/health |
+
 [Features](#-features) • [Demo](#-demo) • [Tech Stack](#-tech-stack) • [Architecture](#-architecture) • [Quick Start](#-quick-start) • [API Docs](#-api-documentation) • [ML Details](#-how-the-ai--ml-works)
 
 ---
